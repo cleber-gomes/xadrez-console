@@ -9,8 +9,9 @@ namespace Xadrez
         {
             Tabuleiro tab = new Tabuleiro(8, 8);
 
-            Console.WriteLine();
+            Tela.imprimirTabuleiro(tab);
 
+            Console.ReadLine();
 
         }
     }
